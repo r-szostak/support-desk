@@ -45,7 +45,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 An application that allows you to submit tickets and manage their status. It is possible to register and log in the user. The user can add new tickets, add notes to tickets, close them.
 
@@ -120,7 +120,7 @@ Project Link: [https://github.com/r-szostak/support-desk](https://github.com/r-s
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
 [express]: https://img.shields.io/badge/Express-65a856?style=for-the-badge&logo=express&logoColor=2C384A
-[express]: https://expressjs.com
+[express-url]: https://expressjs.com
 [mongo]: https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
 [mongo-url]: https://www.mongodb.com
 [node]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
