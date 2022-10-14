@@ -77,14 +77,14 @@ Rename the .envexample to .env and add your MongoDB database URI and your JWT se
    npm install
    ```
 
-   3. Install client dependencies
+3. Install client dependencies
 
    ```sh
    cd frontend
    npm install
    ```
 
-3. Complete variables in `.env` file
+4. Complete variables in `.env` file
 
 ### Run
 
