@@ -4,7 +4,7 @@ require("colors")
 require("dotenv").config()
 const { errorHandler } = require("./middleware/errorMiddleware")
 const connectDB = require("./config/db")
-import cors from "cors"
+const cors = require("cors")
 
 // Connect to db
 connectDB()
