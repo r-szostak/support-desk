@@ -1,9 +1,11 @@
 const mongoose = require("mongoose")
 
-const connectDB = async () => {
+const connectDB = () => {
   try {
-    mongoose.set("strictQuery", true)
-    mongoose.connect(process.env.MONGO_URL)
+    mongoose.connect(process.env.MONGO_URL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    })
     console.log("Conntected to MongoDB")
   } catch (err) {
     console.error("Failed to connect with MongoDB")
