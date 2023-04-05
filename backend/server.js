@@ -10,8 +10,8 @@ connectDB()
 
 const app = express()
 
+app.use(cors())
 app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
 
 // Routes
 app.use("/api/users", require("./routes/userRoutes"))
@@ -22,3 +22,5 @@ app.get("/", (req, res) => {
     message: "Welcome to Yariga!",
   })
 })
+
+app.listen(8080, () => console.log("Server started on port 8080"))
