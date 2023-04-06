@@ -13,7 +13,7 @@
     <br />
     <br />
     <br />
-    <a href="https://supportdeskszostak.herokuapp.com">View Demo</a>
+    <a href="https://support-desk-alpha.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/r-szostak/support-desk/issues">Report Bug</a>
     ·
